@@ -1,3 +1,7 @@
+div {
+  border: 1px solid red;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -13,13 +17,13 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
-}
+  background-color: #f2f2f2;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 100px;
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
+  /* выше установили ограничения для секции */
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -29,3 +33,117 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+/* LOGO */
+.logo {
+  background-position: center;
+  background-size: contain;
+  background-image: url(../images/logo_place_header.svg);
+  background-repeat: no-repeat;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  order: 1;
+  left: 64px;
+  width: 183px;
+  height: 32px;
+  background-image: url(../images/logo_place_header.svg);
+}
+
+/* HEADER */
+.header__title{
+  position: relative;
+  left: 64px;
+  display: inline-block;
+  width: 730px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: bold;
+}
+
+.header__subtitle{
+  position: absolute;
+  width: 388px;
+  left: 64px;
+  bottom: 30px;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.header__link{
+  color: #2f80ed;
+}
+
+.header__link::after{
+  content:'\2192';
+}
+
+.header__main-illustration{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 608px;
+  width: 765px;
+  z-index: 1;
+}
+
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+  background-color:#2f80ed;
+  top:64px;
+  right:0;
+  position: absolute;
+}
+
+/* DESCRIPTION */
+.description {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.two_columns {
+  display: flex;
+  justify-content: space-between;
+  min-height: auto;
+  width: 175px;
+  margin-top: 0;
+  width: 80%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.two-columns__brief {
+  width: 175px;
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  display: flex;
+  min-width: 784px;
+  flex-direction: column;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.two-columns__span-accent {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: bold;
+}
+
+/* DIGITS */
