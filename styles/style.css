@@ -112,7 +112,6 @@ div {
   display: flex;
   justify-content: space-between;
   min-height: auto;
-  width: 175px;
   margin-top: 0;
   width: 80%;
   position: relative;
@@ -334,7 +333,6 @@ div {
 }
 
 .footer__column-heading{
-  font-weight: bold;
   margin-bottom: 20px;
   margin-top: 0;
   line-height: 30px;
@@ -352,7 +350,7 @@ div {
 
 .footer__social-icons {
   width: 16px;
-  height: 16px; 
+  height: 16px;
   background-size: contain;
   position: relative;
 }
