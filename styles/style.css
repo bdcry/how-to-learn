@@ -241,6 +241,7 @@ div {
   align-items: center;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .feynman__title {
