@@ -123,8 +123,6 @@
 }
 
 .two-columns__brief {
-  margin: 0;
-  padding: 0;
   width: 175px;
   color: #2f80ed;
   line-height: 1.2;
@@ -170,6 +168,7 @@
   margin: 0;
   padding: 0;
   width: 60%;
+  margin-bottom: 20px;
   text-align: center;
   line-height: 69px;
   font-size: 60px;
@@ -220,7 +219,7 @@
   padding: 0;
   line-height: 1.2;
   font-size: 18px;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 /* FEYNMAN */
@@ -336,7 +335,7 @@
   justify-content: space-between;
 }
 
-.footer__column_content-copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   justify-content: space-between;
 }
@@ -364,11 +363,12 @@
 }
 
 .footer__column-links {
-  margin-bottom: 16px;
+  margin-top: 0;
   line-height: 30px;
   font-size: 18px;
   list-style-type: none;
   padding: 0;
+  margin-bottom: 16px;
 }
 
 .footer__social-icon {
