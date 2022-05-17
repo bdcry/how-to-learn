@@ -24,4 +24,4 @@ CSS-анимация
 
 ---
 
-Ссылка на сайт: https://bdcry.github.io/how-to-learn/
+Ссылка на сайт: https://bdcry.github.io/how-to-learn/index.html
